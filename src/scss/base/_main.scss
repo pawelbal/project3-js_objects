@@ -1,0 +1,118 @@
+
+.main_box{
+    width: 40%;
+    
+    background-color: #999;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.main_img{
+    margin: 2%;
+    width: 96%;
+   height: 260px;
+}
+
+.main_li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.main_h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main_h3{
+   float: right;
+   margin-bottom: 30px;
+   margin-top: 30px;
+   margin-right: 40px;
+   width: 100px;
+   padding: 10px;
+   border: 1px solid white;
+}
+
+.main_btn{
+   margin-bottom: 30px;
+   margin-top: 30px;
+   width: 100px;
+   height: 53px;
+   margin-left: 40px;
+   float: left;
+   background-color: #999;
+   border: 1px solid white;
+   color: white;
+   font-size: 24px;
+}
+
+.main_btn_add{
+    width: 300px;
+    height: 80px;
+    font-size: 28px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.main_add{
+    font-size: 20px;
+}
+
+.main_select{
+    background-color: white;
+    color: black;
+    min-height: 100px;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 32px;
+   
+
+  div{
+    width: 50%;
+    float: left;
+    margin-top: 32px;
+    margin-bottom: 32px;
+   
+
+    label{
+        margin-right: 20px;
+    }
+    
+  }
+}
+
+.test1{
+    width: 30%;
+    height: 64px;
+    font-size: 20px;
+
+}
+
+.hidden{
+    display: none;
+}
+
+
+input[type='range']{
+    width: 100px;
+}
+.filter_inp{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#main_filter{
+    min-height: 60px;
+}
+
+.p_price{
+    width: 50px;
+    display: inline-block;
+    
+}
+

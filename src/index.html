@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Project 3</title>
+  </head>
+  <body>
+    
+    <main class="component">
+      <div class="wrapper main_filter" id="main_filter">
+        <p id="p_min" class="p_price">0 zł</p>
+        <input type="range" id="range_left" min="0" max="200" value="0">
+        <input type="range" id="range_right" min="0" max="200" value="200">
+        <p id="p_max" class="p_price">200 zł</p>
+        <label for="fila">category A</label><input type="checkbox" id="fila" value="category A" class="filter_inp">
+        <label for="filb">category B</label><input type="checkbox" id="filb" value="category B" class="filter_inp">
+        <label for="filc">category C</label><input type="checkbox" id="filc" value="category C" class="filter_inp">
+        <label for="fild">category D</label><input type="checkbox" id="fild" value="category D" class="filter_inp">
+        <label for="file">category E</label><input type="checkbox" id="file" value="category E" class="filter_inp">
+        <label for="filf">category F</label><input type="checkbox" id="filf" value="category F" class="filter_inp">
+        <br>
+        <button id="filter_btn">Filter</button>
+        <button id="filter_res">Reset</button>
+      </div>
+
+      <div class="wrapper main_cont">
+
+      </div>
+      
+      <div class="wrapper main_add">
+        <button class="main_btn_add" id="main_btn_show">+ Add Product</button>
+
+        <div class="main_window hidden">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" class="test1">
+          <label for="price">Price:</label>
+          <input type="number" name="price" id="price" class="test1">
+          <div class="main_select">
+            <h4>Categories:</h4>
+            <div><label for="cata">category A</label><input type="checkbox" name="cata" id="cata" class="test2" value="category A"></div>
+            <div><label for="catb">category B</label><input type="checkbox" name="catb" id="catb" class="test2" value="category B"></div>
+            <div><label for="catc">category C</label><input type="checkbox" name="catc" id="catc" class="test2" value="category C"></div>
+            <div><label for="catd">category D</label><input type="checkbox" name="catd" id="catd" class="test2" value="category D"></div>
+            <div><label for="cate">category E</label><input type="checkbox" name="cate" id="cate" class="test2" value="category E"></div>
+            <div><label for="catf">category F</label><input type="checkbox" name="catf" id="catf" class="test2" value="category F"></div>
+          </div>
+
+          <button class="main_btn_add" id="main_btn_add">+Add</button>
+          <button class="main_btn_add" id="main_btn_cancel">Cancel</button>
+          
+        </div>
+
+      </div>
+
+    </main>
+    <aside class="aside">
+      <i class="fas fa-shopping-cart fa-3x"></i>
+      <i class="fas fa-exclamation aside_hidden"></i>
+      <div class="aside_div aside_hidden">
+        
+      </div>
+      
+    </aside>
+  </body>
+</html>
